@@ -1,0 +1,25 @@
+.breadcrumb-item+.breadcrumb-item::before{
+  content:var(--bs-breadcrumb-divider,">") !important;
+  color: aqua;
+  font-weight: 300;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgba(17, 40, 53, 1); 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(36,96,139); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(36,96,139); 
+}
